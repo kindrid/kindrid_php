@@ -18,7 +18,7 @@ class Kindrid {
         $response = \Httpful\Request::get(Kindrid::BASE_URI.'/donations')
         ->authenticateWith($this->api_key, $this->api_secret)
         ->send();
-        echo $response->body->result;
+        echo $response->body;
         return $response;
     }
 
