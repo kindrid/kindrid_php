@@ -1,0 +1,21 @@
+{
+    "name": "kindrid/kindrid_php",
+    "description": "Sample API library for Kindrid Smart Giving",
+    "homepage": "http://github.com/kindrid/kindrid_php",
+    "license": "MIT",
+    "keywords": ["kindrid"],
+    "version": "0.1.0",
+    "require": {
+        "nategood/httpful": "*"
+    },
+    "autoload": {
+        "psr-4": {"Kindrid\\": "src/"}
+    },
+    "authors": [
+        {
+            "name": "Trenton Broughton",
+            "email": "trenton@kindrid.com",
+            "homepage": "https://kindrid.com"
+        }
+    ]
+}
