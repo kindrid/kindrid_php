@@ -4,8 +4,7 @@ namespace Kindrid;
 
 class Kindrid {
     const VERSION = '0.1.0';
-    // const BASE_URI = "https://kindrid.com/api/v1";
-    const BASE_URI = "http://172.17.8.1:8087/api/v1";
+    const BASE_URI = "https://kindrid.com/api/v1";
     public $api_key = null;
     public $api_secret = null;
 
