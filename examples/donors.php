@@ -2,7 +2,7 @@
 
 require __DIR__.'/../vendor/autoload.php';
 
-$k = new Kindrid\Kindrid('5134be9ac3dbf561a6667ab6', '6HEcePafzNyX0Z2vWrSgYFUktnDjqC3p');
+$k = new Kindrid\Kindrid(YOUR_KEY, YOUR_SECRET);
 
 $donors = $k->donors();
 echo count($donors);
